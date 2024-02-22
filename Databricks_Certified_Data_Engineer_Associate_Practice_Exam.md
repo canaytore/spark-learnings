@@ -1,4 +1,5 @@
-A collection of exam question samples of Databricks Certified Data Engineer Associate Exam from many sources is available here. Happy learning!
+A collection of exam samples of **Databricks Certified Data Engineer Associate** Exam from many sources is available here. Happy learning!
+
 
 ## Q1 - A data organization leader is upset about the data analysis team’s reports being different from the data engineering team’s reports. The leader believes the siloed nature of their organization’s data engineering and data analysis architectures is to blame. Which of the following describes how a data lakehouse could alleviate this issue?
 
@@ -315,9 +316,13 @@ E. CREATE TABLE all_transactions AS
 ## Q22 - A data engineer only wants to execute the final block of a Python program if the Python variable day_of_week is equal to 1 and the Python variable review_period is True. Which of the following control flow statements should the data engineer use to begin this conditionally executed code block?
 
 A. if day_of_week = 1 and review_period:
+
 B. if day_of_week = 1 and review_period = "True":
+
 C. if day_of_week == 1 and review_period == "True":
+
 **D. if day_of_week == 1 and review_period:**
+
 E. if day_of_week = 1 & review_period: = "True":
 
 ## Q23
@@ -1114,7 +1119,7 @@ A. They can link the job to notebooks that are part of a Databricks Repo
 
 B. They can submit the job once on a Job Cluster
 
-**C. They can download the JSON equivalent of the job from the Job's page
+**C. They can download the JSON equivalent of the job from the Job's page**
 
 D. They can submit the Job once on a All-Purpose Cluster
 
@@ -1166,9 +1171,13 @@ D. If the table is an external table the data is recoverable for the parquet tab
 ## Q79 - An engineering manager uses a Databricks SQL query to monitor their team’s progress on fixes related to customer-reported bugs. The manager checks the results of the query every day, but they are manually rerunning the query each day and waiting for the results. Which of the following approaches can the manager use to ensure the results of the query are updated each day?
 
 A. They can schedule the query to run every 1 day from the Jobs UI.
+
 **B. They can schedule the query to refresh every 1 day from the query’s page in Databricks SQL.**
+
 C. They can schedule the query to run every 12 hours from the Jobs UI.
+
 D. They can schedule the query to refresh every 1 day from the SQL endpoint’s page in Databricks SQL.
+
 E. They can schedule the query to refresh every 12 hours from the SQL endpoint’s page in Databricks SQL.
 
 ## Q80 - You have written a notebook to generate a summary data set for reporting, Notebook was scheduled using the job cluster, but you realized it takes 8 minutes to start the cluster, what feature can be used to start the cluster in a timely fashion so your job can run immediately?
@@ -1716,9 +1725,13 @@ E. This type of alerting is not possible in Databricks.
 ## Q110 - A data engineering manager has noticed that each of the queries in a Databricks SQL dashboard takes a few minutes to update when they manually click the “Refresh” button. They are curious why this might be occurring, so a team member provides a variety of reasons on why the delay might be occurring. Which of the following reasons *fails* to explain why the dashboard might be taking a few minutes to update?
 
 A. The SQL endpoint being used by each of the queries might need a few minutes to start up.
+
 B. The queries attached to the dashboard might take a few minutes to run under normal circumstances.
+
 C. The queries attached to the dashboard might first be checking to determine if new data is available.
+
 **D. The Job associated with updating the dashboard might be using a non-pooled endpoint.**
+
 E. The queries attached to the dashboard might all be connected to their own, unstarted Databricks clusters.
 
 ## Q111 - A new data engineer has started at a company. The data engineer has recently been added to the company’s Databricks workspace as new.engineer@company.com. The data engineer needs to be able to query the table sales in the database retail. The new data engineer already has been granted USAGE on the database retail. Which of the following commands can be used to grant the appropriate permissions to the new data engineer?
@@ -1744,3 +1757,4 @@ C. GRANT ALL PRIVILEGES ON TABLE new.engineer@company.com TO sales;
 D. GRANT SELECT ON TABLE sales TO new.engineer@company.com;
 
 E. GRANT SELECT CREATE MODIFY ON TABLE sales TO new.engineer@company.com;
+
